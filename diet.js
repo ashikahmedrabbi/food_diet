@@ -43,7 +43,7 @@ function generateDietRecommendations() {
         }
     }
 
-    var resultText = "You should maintenance this calories: " + calories.toFixed(0) + " kcal/day \n\n";
+    var resultText = "You should maintain this calorie: " + calories.toFixed(0) + " kcal/day \n\n";
     document.getElementById("result").innerText = resultText;
 
 
